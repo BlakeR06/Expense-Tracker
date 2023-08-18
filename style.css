@@ -1,0 +1,69 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+}
+
+h1{
+    color: rgb(90, 90, 90);
+    font-size: 3em;
+}
+
+h2{
+    color: green;
+    font-size: 2em;
+}
+
+.nameInput{
+    width: 80%;
+    margin-right: 0px;
+}
+
+.dateAmountContainer{
+    padding-top: 20px;
+}
+
+.dateInput{
+    width: 30%;
+}
+
+.amountInput{
+    width: 30%;
+}
+
+.addExpenseButton{
+    background-color: green;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+
+.dataTable{
+    width: 80%;
+    background-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-collapse: collapse;
+}
+
+th{
+    text-align: left;
+    border: 1px solid black;
+    padding: 8px;
+}
+
+td{
+    text-align: left;
+    background-color: lightgrey;
+    padding: 2px;
+}
+
+.newRow{
+    background-color: lightgray;
+    border-top: 2px solid white;
+}

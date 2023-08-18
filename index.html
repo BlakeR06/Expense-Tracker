@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Expense Tacker</h1>
+            <h2>Add a New Item:</h2>
+            <label for="nameInput">Name:</label>
+            <input type="text" id="nameInput" placeholder="Enter name here" class="nameInput">
+
+            <div class="dateAmountContainer">
+                <label for="dateInput">Date:</label>
+                <input type="date" id="dateInput" placeholder="mm/dd/yyyy" class="dateInput">
+
+                <label for="amountInput">Amount:</label>
+                <input type="number" id="amountInput" placeholder="Enter amount here" class="amountInput">
+            </div>
+            
+            <button id="addExpenseButton" class="addExpenseButton">Add Expense</button> 
+
+            <table id="dataTable" class="dataTable">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Date</th>
+                        <th>Amount</th>
+                        <th>Remove</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="noExpensesYetText">No expenses yet!</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
